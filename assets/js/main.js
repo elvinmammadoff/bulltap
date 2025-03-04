@@ -39,8 +39,7 @@
   $( '.image-back-offset-shadow, .vertical-counter, .counter, .progress-bar, .pie-chart-style-01, .pie-chart-style-02' ).each( function() {
       $( this ).appear().trigger( 'resize' );
   });
-
-  megaMenuOnResize();
+  
   animateCounters();
   fullScreenHeight();
   SetResizeContent();
@@ -1978,34 +1977,6 @@
               fullScreenObj.css( 'height', minHeight );
           } else {
               fullScreenObj.css( 'height', minHeight );
-          }
-      });
-  }
-
-  /****** Mega menu resize ******/
-  function megaMenuOnResize() {
-      // Based on container / container-fluid width megamenu will open under parent menu as a center
-      $( 'nav.navbar li.dropdown.megamenu' ).on( 'touchstart mouseenter click', function (e) {
-          var windowWidth = getWindowWidth();
-          if ( windowWidth > menuBreakPoint ) {
-              var dropdownMenuObj = $( this ).children( '.dropdown-menu' );
-              dropdownMenuObj.css({ 'left': '' });
-              var menuSpacing         = 30,
-                  dropdownMenuPadding = parseInt( dropdownMenuObj.css( 'padding-left' ) ),
-                  linkPosition        = ( $( this ).position() ).left,
-                  linkWidth           = $( this ).outerWidth(),
-                  wrapperPosition     = ( $( '.navbar-collapse' ).offset() ).left,
-                  dropdownWidth       = dropdownMenuObj.outerWidth();
-              var actualLeftPosition = ( ( linkPosition + ( linkWidth / 2 ) ) - ( dropdownWidth / 2 ) );
-              var afterReducewrapperPosition = ( windowWidth - wrapperPosition );
-              if ( ( actualLeftPosition + wrapperPosition ) < 0 ) {
-                  actualLeftPosition = -( wrapperPosition ) + menuSpacing;
-              } else if ( ( actualLeftPosition + dropdownWidth ) > afterReducewrapperPosition ) {
-                  actualLeftPosition = ( afterReducewrapperPosition - dropdownWidth ) - menuSpacing;
-              }
-              dropdownMenuObj.css({ 'left': actualLeftPosition + 'px' });
-          } else {
-              $( this ).children( '.dropdown-menu' ).css({ right: '', left: '' });
           }
       });
   }
