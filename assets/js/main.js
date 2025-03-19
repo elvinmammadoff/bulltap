@@ -1426,6 +1426,11 @@
       setCookie( gdprCookieName, 'shown', gdprExpireDays );
   });
 
+ 
+  /****** Non retina image code ******/
+  $( "img:not([data-at2x])" ).each( function() {
+      $( this ).attr( 'data-no-retina', '' );
+  });
 
   /****** Window load ******/
   $( window ).on( 'load', function () {
