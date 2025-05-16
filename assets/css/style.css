@@ -518,6 +518,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .bg-transparent-gradient-light-violet-light-orange { background-image: linear-gradient(to right top, rgba(43, 8, 89, .90), rgba(74, 24, 86, .90), rgba(127, 53, 88, .90), rgba(200, 92, 87, .90), rgba(255, 122, 86, .90)); }
 .bg-transparent-gradient-tussock-greenish-slate { background: linear-gradient(40deg, rgba(191,140,76,.90) 0%, rgba(68,90,88,1) 90%); }
 .bg-transparent-gradient-shamrock-green-light-orange { background: linear-gradient(45deg, rgba(46,212,124,0.9) 0%, rgba(232,166,38,0.9) 100%);}
+.bg-transparent-gradient-green { background: linear-gradient(45deg, rgba(56,236,140,0.9) 0%, rgba(29,143,78,0.9) 100%);}
 .bg-transparent-gradient-smoky-black {background: rgb(16,16,16); background: -moz-radial-gradient(circle, rgba(16,16,16,0) 0%, rgba(16,16,16,1) 100%); background: -webkit-radial-gradient(circle, rgba(16,16,16,0) 0%, rgba(16,16,16,1) 100%); background: radial-gradient(circle, rgba(16,16,16,0) 0%, rgba(16,16,16,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#101010",endColorstr="#101010",GradientType=1);}
 
 /* hover background */
@@ -889,13 +890,15 @@ input.btn:focus { border-width: 2px; }
 .btn.btn-gradient-tan-geraldine-2:active { color: #fff; border-color: transparent; }
 .btn-gradient-shamrock-green-light-orange { background-image: linear-gradient(to right, #2ed47c, #e8a626, #2ed47c); color: #fff; background-size: 200% auto; transition: all 0.3s cubic-bezier(.25,.8,.25,1);}
 .btn.btn-gradient-shamrock-green-light-orange:active { color: #fff; border-color: transparent; }
+.btn-gradient-green-dark { background-image: linear-gradient(to right, #38ec8c, #1d8f4e, #38ec8c); color: #fff; background-size: 200% auto; transition: all 0.3s cubic-bezier(.25,.8,.25,1);}
+.btn.btn-gradient-green-dark:active { color: #fff; border-color: transparent; }
 .btn-gradient-light-purple-light-red { background-image: linear-gradient(to right, #b884fd, #fd9395, #b884fd); color: #fff; background-size: 200% auto; transition: all 0.3s cubic-bezier(.25,.8,.25,1); }
 .btn.btn-gradient-light-purple-light-red:active { color: #fff; border-color: transparent; }
 .btn-gradient-yellowish-green-turquoise { background-image: linear-gradient(to right, #d0e51b, #3edfb6, #d0e51b); color: #232323; background-size: 200% auto; transition: all 0.3s cubic-bezier(.25,.8,.25,1); }
 .btn.btn-gradient-yellowish-green-turquoise:active { color: #fff; border-color: transparent; }
 .btn-gradient-peacock-blue-crome-yellow-2 { background-image: linear-gradient(to right, #5cc088, #1d8f4e, #5cc088); color: #ffffff; background-size: 200% auto; transition: all 0.3s cubic-bezier(.25,.8,.25,1); }
 .btn.btn-gradient-peacock-blue-crome-yellow-2:active { color: #fff; border-color: transparent; }
-.btn-gradient-shamrock-green-light-orange:hover, .btn-gradient-shamrock-green-light-orange:focus, .btn-gradient-tan-geraldine-2:hover, .btn-gradient-tan-geraldine-2:focus, .btn-gradient-magenta-orange:hover, .btn-gradient-magenta-orange:focus, .btn-gradient-magenta-orange-2:hover, .btn-gradient-magenta-orange-2:focus, .btn-gradient-purple-magenta:hover, .btn-gradient-purple-magenta:focus, .btn-gradient-light-purple-light-orange:hover, .btn-gradient-light-purple-light-orange:focus, .btn-gradient-sky-blue-pink:hover, .btn-gradient-sky-blue-pink:focus, .btn-gradient-peacock-blue-crome-yellow:hover, .btn-gradient-peacock-blue-crome-yellow:focus, .btn-gradient-fast-blue-purple:hover, .btn-gradient-fast-blue-purple:focus, .btn-gradient-tan-geraldine:hover, .btn-gradient-tan-geraldine:focus, .btn-gradient-light-purple-light-red:hover, .btn-gradient-light-purple-light-red:focus, .btn-gradient-yellowish-green-turquoise:hover, .btn-gradient-yellowish-green-turquoise:focus, .btn-gradient-peacock-blue-crome-yellow-2:hover, .btn-gradient-peacock-blue-crome-yellow-2:focus { background-position: right center; color: #fff; }
+.btn-gradient-shamrock-green-light-orange:hover, .btn-gradient-shamrock-green-light-orange:focus, .btn-gradient-tan-geraldine-2:hover, .btn-gradient-tan-geraldine-2:focus, .btn-gradient-magenta-orange:hover, .btn-gradient-magenta-orange:focus, .btn-gradient-magenta-orange-2:hover, .btn-gradient-magenta-orange-2:focus, .btn-gradient-purple-magenta:hover, .btn-gradient-purple-magenta:focus, .btn-gradient-light-purple-light-orange:hover, .btn-gradient-light-purple-light-orange:focus, .btn-gradient-sky-blue-pink:hover, .btn-gradient-sky-blue-pink:focus, .btn-gradient-peacock-blue-crome-yellow:hover, .btn-gradient-peacock-blue-crome-yellow:focus, .btn-gradient-fast-blue-purple:hover, .btn-gradient-fast-blue-purple:focus, .btn-gradient-green-dark:hover, .btn-gradient-green-dark:focus, .btn-gradient-tan-geraldine:hover, .btn-gradient-tan-geraldine:focus, .btn-gradient-light-purple-light-red:hover, .btn-gradient-light-purple-light-red:focus, .btn-gradient-yellowish-green-turquoise:hover, .btn-gradient-yellowish-green-turquoise:focus, .btn-gradient-peacock-blue-crome-yellow-2:hover, .btn-gradient-peacock-blue-crome-yellow-2:focus { background-position: right center; color: #fff; }
 
 /* button gradient border */
 .btn.btn-transparent-gradient-sky-blue-pink { background: transparent; color: #232323; border-image-slice: 1; border-image-source: linear-gradient(45deg, rgb(85, 111, 255), rgb(255, 121, 142));}
@@ -977,6 +980,7 @@ input.btn:focus { border-width: 2px; }
 
 /* border gradient */
 .border-gradient-magenta-orange { border-image: linear-gradient(to right top, #e42464, #ed3c5f, #f44f5c, #fa6259, #ff7357); border-image-slice: 1;  }
+.border-gradient-green-dark { border-image: linear-gradient(to right top, #38ec8c, #38ec8c, #1d8f4e, #1d8f4e, #1d8f4e); border-image-slice: 1;  }
 .border-gradient-purple-magenta { border-image: linear-gradient(to right top, #502970, #7f2977, #ac2775, #d42d6b, #f34259); border-image-slice: 1; }
 .border-gradient-light-purple-light-orange { border-image: linear-gradient(to right top, #b783ff, #e37be0, #fa7cc1, #ff85a6, #ff9393); border-image-slice: 1; }
 .border-gradient-sky-blue-pink { border-image: linear-gradient(to right top, #556fff, #b263e4, #e05fc4, #f767a6, #ff798e); border-image-slice: 1; }
