@@ -1,4 +1,4 @@
-<div class="user-html user-html__with-lazy-load"><h3 id="item-description__bulltap-personal portfolio-responsive-html-template">BullTap – Personal Portfolio Responsive HTML Template</h3>
+<div class="user-html user-html__with-lazy-load"><h3 id="item-description__bulltap-personal-portfolio-responsive-html-template">BullTap – Personal Portfolio Responsive HTML Template</h3>
 <p><strong>BullTap</strong> is a clean and modern design, BootStrap 5.x responsive, business and personal portfolio HTML5 template with 3+ ready homepage and 9+ other page demos. 
 <strong>BullTap</strong> is an all-in-one package that includes unique style and functionality.</p>
 
@@ -77,7 +77,7 @@ The possibility of customizing it is unlimited. This design is very creative and
 <li>Better Support (response within 24 hours)</li><li>Free regular lifetime updates</li>
 
 </ul>
-<h3 id="item-description__included-in-the-purchase-packagee"><strong>Included in the purchase package</strong></h3>
+<h3 id="item-description__included-in-the-purchase-package"><strong>Included in the purchase package</strong></h3>
 <ul>
 <li>HTML File</li>
 <li>Supporting CSS, SCSS, SASS Files</li>
@@ -117,7 +117,7 @@ The possibility of customizing it is unlimited. This design is very creative and
 <li>All images are just used for Preview Purpose Only. They are not part of the HTML templates and are not included in the final purchase files.</li>
 <li>Images and videos shown in our demo site are not part of the template download package due to licensing limitations and hence we are providing placeholder images with recommended image size mentioned in it.</li>
 <li>Any type of code or CSS customization and feature addition/change is not the part of item support scope as per Envato item <a href="https://themeforest.net/page/item_support_policy?_ga=2.233764957.275401607.1701770067-503905489.1698934107">support policy</a>.</li>
-<li>Included a documentation file for full instruction. Full credits list you can see on this page <a href="https://nahacivan.netlify.app/documentation/index.html#credits" rel="nofollow">link</a>
+<li>Included a documentation file for full instruction. Full credits list you can see on this page <a href="https://bulltap.netlify.app/documentation/index.html#credits" rel="nofollow">link</a>
 </li>
 </ul>
 
@@ -137,7 +137,9 @@ The possibility of customizing it is unlimited. This design is very creative and
 - Tweak: Improved Documentation
 </pre> 
 <p>V. 1.0.0 – 09.03.2025</p>
-<pre>- Initial release</pre><h3 id="item-description__support"><strong>Support</strong></h3>
+<pre>- Initial release</pre>
+
+<h3 id="item-description__support"><strong>Support</strong></h3>
 <p>Customer satisfaction is our top priority, don’t hesitate to contact us <a href="https://themeforest.net/item/bulltap-personal-portfolio-responsive-html-template/57192329/support" rel="nofollow"><strong>here</strong></a>: if you require any assistance. We will try our best to reply within one business day.</p>
 <p>Item support includes:</p>
 <ul>
