@@ -1,8 +1,9 @@
 <div class="user-html user-html__with-lazy-load"><h3 id="item-description__bulltap-personal portfolio-responsive-html-template">BullTap – Personal Portfolio Responsive HTML Template</h3>
-<p><strong>BullTap</strong> – Personal Portfolio Responsive HTML Template is a responsive and impressive HTML5 template. 
-<strong>BullTap</strong> is an all-in-one package that includes unique style and functionality. <br><br> 
+<p><strong>BullTap</strong> is a clean and modern design, BootStrap 5.3 responsive, business and personal portfolio HTML5 template with 3+ ready homepage and 9+ other page demos. 
+<strong>BullTap</strong> is an all-in-one package that includes unique style and functionality.</p>
+<p>
 Specially Designed for professional, artist, designer, freelancer, and job seeker, etc. 
-The possibility of customizing it is unlimited. This design is very creative and unique, and also very easy to customize and use, fully responsive and works seamlessly across all devices.<br><br> 
+The possibility of customizing it is unlimited. This design is very creative and unique, and also very easy to customize and use, fully responsive and works seamlessly across all devices. With BullTap, you can also get access to exclusive features including Bootstrap 5 Framework, Swiper Slider, FontAwesome, Isotope Filter, Flaticon and Google Web Fonts.<br><br> 
 More designs are coming soon. Get <strong>BullTap</strong> and take your website to the next level.
 </p>
 
