@@ -55,17 +55,17 @@ a:focus {
     opacity: 0;
 }
 .btn-border {
-    border: 2px solid #fa325e;
+    border: 2px solid #27AE60;
     padding: 6px 66px;
     background-color: white;
     border-radius: 0;
-    color: #fa325e;
+    color: #27AE60;
     font-size: 28px;
     text-transform: uppercase;
     transition: all .2s
 }
 .btn-border:hover {
-    background-color: #fa325e;
+    background-color: #27AE60;
     color: white;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -98,7 +98,7 @@ a:focus {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    background-color: #fa325e;
+    background-color: #27AE60;
     line-height: 24px;
     color: #fff;
     font-size: 14px;
@@ -116,15 +116,15 @@ a:focus {
 }
 .button-border {
     background-color: transparent;
-    border: 1px solid #fa325e;
-    color: #fa325e;
+    border: 1px solid #27AE60;
+    color: #27AE60;
 }
 .button-border:hover {
     box-shadow: 4px 3px 24px rgba(250, 50, 94, .5);
-    color: #fa325e;
+    color: #27AE60;
 }
 .button-border:focus {
-    color: #fa325e;
+    color: #27AE60;
 }
 
 /*---------------------------------------- 
@@ -212,7 +212,7 @@ a:focus {
     margin-bottom: 50px;
 }
 .section-category {
-    color: #fa325e;
+    color: #27AE60;
     font-family: 'Raleway';
     font-weight: bold;
     font-size: 90px;
@@ -272,6 +272,8 @@ a:focus {
     font-family: 'Raleway';
     margin-bottom: 20px;
     color: #252525;
+    display: block;
+    min-height: 56px;
 }
 .demo-title:hover {
     color: #252525;
