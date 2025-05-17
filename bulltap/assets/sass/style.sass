@@ -692,7 +692,12 @@ h6
   -webkit-text-fill-color: transparent
 
 .text-gradient-peacock-blue-crome-yellow-2
-  background-image: linear-gradient(to right, #5cc088, #50c28d, #83b879, #c9a95e, #dda556)
+  background-image: linear-gradient(to right, #5cc088, #50c28d, #83b879, #1d8f4e, #1d8f4e)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+
+.text-gradient-green-dark
+  background-image: linear-gradient(20deg, #38ec8c 0%, #1d8f4e 100%)
   -webkit-background-clip: text
   -webkit-text-fill-color: transparent
 
@@ -758,7 +763,7 @@ a
 .text-border
   -webkit-text-fill-color: transparent
   -webkit-text-stroke-width: 1px
-  -webkit-text-stroke-color: white
+  -webkit-text-stroke-color: #000
 
 /* text stroke width
 
@@ -1544,6 +1549,9 @@ a
 .bg-gradient-shamrock-green-light-orange
   background-image: linear-gradient(20deg, rgba(46, 212, 124, 1) 0%, rgba(232, 191, 71, 1) 100%)
 
+.bg-gradient-green-dark
+  background-image: linear-gradient(20deg, #38ec8c 0%, #1d8f4e 100%)
+
 .bg-gradient-dark-slate-blue-transparent
   background: rgba(31, 35, 44, 0)
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(31, 35, 44, 1) 100%)
@@ -1656,6 +1664,9 @@ a
 
 .bg-transparent-gradient-shamrock-green-light-orange
   background: linear-gradient(45deg, rgba(46, 212, 124, 0.9) 0%, rgba(232, 166, 38, 0.9) 100%)
+
+.bg-transparent-gradient-green
+  background: linear-gradient(45deg, rgba(56, 236, 140, 0.9) 0%, rgba(29, 143, 78, 0.9) 100%)
 
 .bg-transparent-gradient-smoky-black
   background: rgb(16, 16, 16)
@@ -3271,6 +3282,16 @@ input.btn:focus
   color: #fff
   border-color: transparent
 
+.btn-gradient-green-dark
+  background-image: linear-gradient(to right, #38ec8c, #1d8f4e, #38ec8c)
+  color: #fff
+  background-size: 200% auto
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+
+.btn.btn-gradient-green-dark:active
+  color: #fff
+  border-color: transparent
+
 .btn-gradient-light-purple-light-red
   background-image: linear-gradient(to right, #b884fd, #fd9395, #b884fd)
   color: #fff
@@ -3292,7 +3313,7 @@ input.btn:focus
   border-color: transparent
 
 .btn-gradient-peacock-blue-crome-yellow-2
-  background-image: linear-gradient(to right, #5cc088, #e7a965, #5cc088)
+  background-image: linear-gradient(to right, #5cc088, #1d8f4e, #5cc088)
   color: #ffffff
   background-size: 200% auto
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
@@ -3342,6 +3363,11 @@ input.btn:focus
     color: #fff
 
 .btn-gradient-fast-blue-purple
+  &:hover, &:focus
+    background-position: right center
+    color: #fff
+
+.btn-gradient-green-dark
   &:hover, &:focus
     background-position: right center
     color: #fff
@@ -3579,6 +3605,10 @@ input.btn:focus
 
 .border-gradient-magenta-orange
   border-image: linear-gradient(to right top, #e42464, #ed3c5f, #f44f5c, #fa6259, #ff7357)
+  border-image-slice: 1
+
+.border-gradient-green-dark
+  border-image: linear-gradient(to right top, #38ec8c, #38ec8c, #1d8f4e, #1d8f4e, #1d8f4e)
   border-image-slice: 1
 
 .border-gradient-purple-magenta
@@ -10318,7 +10348,7 @@ header .header-cart-icon .cart-count
     li a
       font-size: 13px
       line-height: normal
-      color: #fff
+      color: #000
       padding: 0
 
     position: relative
@@ -10385,7 +10415,7 @@ header .header-cart-icon .cart-count
     top: 14px
     height: 1px
     width: 11px
-    background-color: #fff
+    background-color: #000
 
 .sub-menu-item .menu-toggle
   &:before, &:after
