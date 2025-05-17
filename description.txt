@@ -2,11 +2,11 @@
 <p><strong>BullTap</strong> is a clean and modern design, BootStrap 5.3 responsive, business and personal portfolio HTML5 template with 3+ ready homepage and 9+ other page demos. 
 <strong>BullTap</strong> is an all-in-one package that includes unique style and functionality.</p>
 
-<p><img src="https://bulltap.netlify.app/showcase.png" alt="Bulltap - Personal Portfolio HTML Template"></p>
-<a href="https://bulltap.netlify.app/intro/#pages" rel="nofollow" target="_blank"><img src="https://bulltap.netlify.app/nahacivan-showcase-2.png" alt="NahaCivan – Photography Portfolio HTML Template - 2"></a>
-<p><img src="https://bulltap.netlify.app/nahacivan-showcase-3.png" alt="NahaCivan - Photography Portfolio HTML Template - 3"></p>
-<p><img src="https://bulltap.netlify.app/nahacivan-showcase-4.png" alt="NahaCivan - Photography Portfolio HTML Template - 4"></p>
-<p><img src="https://bulltap.netlify.app/nahacivan-showcase-5.png" alt="NahaCivan - Photography Portfolio HTML Template - 5"></p>
+<p><img src="https://bulltap.netlify.app/assets/showcase.png" alt="Bulltap - Personal Portfolio HTML Template - 1"></p>
+<a href="https://bulltap.netlify.app/intro/#pages" rel="nofollow" target="_blank"><img src="https://bulltap.netlify.app/assets/inner-pages.png" alt="BullTap - Personal Portfolio HTML Template - 2"></a>
+<p><img src="https://bulltap.netlify.app/assets/responsive.png" alt="BullTap - Personal Portfolio HTML Template - 3"></p>
+<p><img src="https://bulltap.netlify.app/assets/inner-pages.png" alt="BullTap - Personal Portfolio HTML Template - 4"></p>
+<p><img src="https://bulltap.netlify.app/assets/update.png" alt="BullTap - Personal Portfolio HTML Template - 5"></p>
 <p>
 Specially Designed for professional, artist, designer, freelancer, and job seeker, etc. 
 The possibility of customizing it is unlimited. This design is very creative and unique, and also very easy to customize and use, fully responsive and works seamlessly across all devices. With BullTap, you can also get access to exclusive features including Bootstrap 5 Framework, Swiper Slider, FontAwesome, Isotope Filter, Flaticon and Google Web Fonts.</p>
