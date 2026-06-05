@@ -65,6 +65,9 @@
                     <li>
                         <a href="#site-title" class="site-title">8.1. Change Site Title</a>
                     </li>
+                    <li>
+                        <a href="#theme-colors" class="theme-colors">8.2. Theme Colors</a>
+                    </li>
                 </ul>
             </li>
             <li><a href="#testing" class="testing">9. Testing</a></li>
@@ -353,6 +356,49 @@
   <title>BullTap - Personal Portfolio, Responsive Bootstrap Template</title>
   </code>
 </pre>
+        </section>
+
+        <section id="theme-colors" class="section sub-section">
+
+          <h2 class="section-title"><span>8.2</span> Theme Colors</h2>
+
+          <p class="mt-1">BullTap uses green in two ways — a solid color for links and buttons, and a gradient for decorative elements. You only need to edit one file: <code>assets/css/style.css</code>. Open it in a code editor (VS Code, Notepad++, Sublime Text, etc.) and use Find &amp; Replace All (<kbd>Ctrl+H</kbd> on Windows / <kbd>Cmd+H</kbd> on Mac).</p>
+
+          <h3 class="mt-4">Step 1 — Solid accent color (links, buttons, borders)</h3>
+          <p>Search for both the lowercase and uppercase variants and replace with your chosen color:</p>
+
+<pre>
+  <code>
+  Find:    #27ae60    Replace: YOUR_COLOR   (e.g. #e74c3c for red, #3498db for blue)
+  Find:    #27AE60    Replace: YOUR_COLOR   (same value as above)
+  </code>
+</pre>
+          <p>This updates the hamburger menu button, link hover colors, buttons, and borders across all pages.</p>
+
+          <h3 class="mt-4">Step 2 — Gradient accent (decorative elements)</h3>
+          <p>Some elements (process step circles, text labels, portfolio overlays, gradient buttons) use a two-tone gradient. Replace both gradient color stops:</p>
+
+<pre>
+  <code>
+  Find:    #38ec8c    Replace: YOUR_LIGHT_COLOR
+  Find:    #1d8f4e    Replace: YOUR_DARK_COLOR
+  </code>
+</pre>
+
+          <h3 class="mt-4">Step 3 — Gradient hover overlays (rgba)</h3>
+          <p>Portfolio and team card hover overlays use <code>rgba()</code> versions of the same gradient colors. Replace these too:</p>
+
+<pre>
+  <code>
+  Find:    rgba(56, 236, 140, 0.9)    Replace: rgba(R, G, B, 0.9)  ← RGB of YOUR_LIGHT_COLOR
+  Find:    rgba(29, 143, 78, 0.9)     Replace: rgba(R, G, B, 0.9)  ← RGB of YOUR_DARK_COLOR
+  </code>
+</pre>
+          <p><small>Tip: Use <a href="https://coolors.co" target="_blank">coolors.co</a> or <a href="https://htmlcolorcodes.com" target="_blank">htmlcolorcodes.com</a> to pick hex codes, and any online hex-to-RGB converter to get the RGB values for Step 3.</small></p>
+
+          <h3 class="mt-4">If you use SCSS source files</h3>
+          <p>Make the same replacements inside <code>assets/scss/style.scss</code> and recompile to regenerate <code>assets/css/style.css</code>.</p>
+
         </section>
 
         <section id="testing" class="section">
